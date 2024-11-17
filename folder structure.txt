@@ -1,0 +1,10 @@
+- /website-folder
+    - index.html
+    - about.html
+    - projects.html
+    - skills.html
+    - certifications.html
+    - blog.html
+    - contact.html
+    - styles.css
+    - cv.pdf
