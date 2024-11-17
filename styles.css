@@ -19,6 +19,17 @@ body {
     padding: 20px;
 	margin: 0;
 }
+/* Wrapper for the A4 Paper-like layout */
+.page-wrapper {
+    width: 210mm;  /* A4 width in mm */
+    min-height: 297mm;  /* A4 height in mm */
+    background-color: #222;  /* Optional: You can change the color or remove */
+    margin-top: 20px;  /* Some spacing from the top */
+    padding: 20mm;  /* Padding for content to look neat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  /* Optional: Adds a subtle shadow around the "paper" */
+    overflow: auto;
+    position: relative;
+}
 
 /* Header and Navigation */
 header {
@@ -215,6 +226,13 @@ form button {
 
 form button:hover {
     background-color: #0056b3;
+}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1024px) {
+    .page-wrapper {
+        width: 90%;
+        padding: 15mm;
+    }
 }
 
 /* Portfolio Gallery Styling */
