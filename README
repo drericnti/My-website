@@ -1,0 +1,31 @@
+# My Personal Website
+
+Welcome to my personal website! This website serves as both a blog and an online resume, showcasing my skills, projects, and background. It includes sections like About Me, Work/Projects, and a way to download my CV.
+
+## Features
+- **About Me**: Learn more about who I am and my background.
+- **Work/Projects**: Explore my past and current work.
+- **Skills**: See the technical and professional skills I bring to the table.
+- **Contact**: Get in touch with me through the contact form.
+- **Download CV**: Access my resume with the option to download it.
+
+## Technologies Used
+- **HTML5**: For structuring the web pages.
+- **CSS3**: For styling the pages and making them responsive.
+- **Flexbox**: For layout alignment.
+- **GitHub Pages**: For hosting the website (or you can host it elsewhere if you prefer).
+
+## Installation
+
+To view the website locally, follow these steps:
+
+### Prerequisites
+Ensure you have the following installed:
+- A browser (e.g., Google Chrome, Firefox)
+- A code editor (e.g., Visual Studio Code)
+- Optional: Git for version control
+
+### Steps to Set Up Locally
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/your-repository-name.git
