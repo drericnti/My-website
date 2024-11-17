@@ -21,9 +21,8 @@ body {
 }
 /* Wrapper for the A4 Paper-like layout */
 .page-wrapper {
-    width: 210mm;  /* A4 width in mm */
-    min-height: 297mm;  /* A4 height in mm */
-    background-color: #222;  /* Optional: You can change the color or remove */
+    width: 410mm;  /* A4 width in mm */
+    min-height: 497mm;  /* A4 height in mm */
     margin-top: 20px;  /* Some spacing from the top */
     padding: 20mm;  /* Padding for content to look neat */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  /* Optional: Adds a subtle shadow around the "paper" */
@@ -230,8 +229,8 @@ form button:hover {
 /* Responsive adjustments for smaller screens */
 @media (max-width: 1024px) {
     .page-wrapper {
-        width: 90%;
-        padding: 15mm;
+        width: 180%;
+        padding: 35mm;
     }
 }
 
