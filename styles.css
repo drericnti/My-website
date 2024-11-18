@@ -105,6 +105,7 @@ main {
     font-size: 24px;
     color: #333; /* Dark text for the name */
     font-family: 'Georgia', serif; /* Same elegant font */
+	margin-bottom: 15px;
 }
 
 .portrait p {
@@ -112,6 +113,42 @@ main {
     color: #555; /* Light grey text for description */
     font-family: 'Helvetica', sans-serif;
     margin-top: 10px;
+	margin-bottom: 20px; /* Space between paragraphs */
+    text-align: justify; /* Align text for a clean, polished look */
+
+}
+.portrait-description {
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin: 0 auto;
+    max-width: 50%; /* Set a maximum width */
+    min-height: 150px; /* Minimum height for rectangle */
+    padding: 20px;
+    background-color: #f8f8f8; /* Light grey background */
+    border: 1px solid #f6f6f6; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    color: #333; /* Dark text color */
+    font-size: 16px; /* Comfortable text size */
+    text-align: center; /* Center text inside the box */
+    line-height: 1.6; /* Improve readability */
+    transition: all 0.3s ease; /* Smooth expansion transition */
+}
+.portrait p:last-child {
+margin-bottom: 0; /* Remove bottom margin for the last paragraph */
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .portrait {
+        padding: 15px;
+    }
+
+    .portrait h2 {
+        font-size: 24px; /* Adjust heading size for smaller screens */
+    }
+
+    .portrait p {
+        font-size: 16px; /* Adjust text size for readability */
+    }
 }
 
 /* Section styles */
@@ -157,7 +194,25 @@ ul li {
     color: #555;
 }
 
-/* Social Links */
+/* Social Links Styling */
+.social-links {
+    margin-top: 20px; /* Space between text and icons */
+    display: flex;
+    justify-content: center; /* Center align the icons */
+    gap: 15px; /* Space between icons */
+}
+
+.social-links a {
+    text-decoration: none; /* Remove underline */
+    color: #007BFF; /* Blue color for icons */
+    font-size: 24px; /* Size of the icons */
+    transition: color 0.3s; /* Smooth color change on hover */
+}
+
+.social-links a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
 .socials a {
     color: #007BFF;
     margin-right: 15px;
@@ -216,7 +271,13 @@ form button {
 form button:hover {
     background-color: #0056b3;
 }
-
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .portrait-description {
+        max-width: 90%; /* Adjust width for smaller screens */
+        padding: 15px; /* Reduce padding */
+    }
+}
 /* Portfolio Gallery Styling */
 .gallery {
     display: grid;
